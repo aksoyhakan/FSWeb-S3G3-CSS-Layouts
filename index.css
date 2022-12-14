@@ -1,0 +1,203 @@
+html {
+  font-size: 16px;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.introduction {
+  width: 100%;
+  background-color: rgb(178, 172, 172);
+  padding: 2rem;
+  margin: 0px auto;
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0rem 1rem 2rem 1rem;
+}
+
+.mapping {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0rem;
+  margin-top: 1rem;
+}
+
+.menu {
+  background-color: rgb(68, 66, 66);
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 10%;
+  font-size: 0.75rem;
+  margin: 0rem;
+  border-style: solid;
+  border-color: black;
+}
+
+.menu:hover {
+  background-color: white;
+  color: rgb(68, 66, 66);
+  border-style: solid;
+  border-color: rgb(68, 66, 66);
+}
+
+.menu:active {
+  background-color: rgb(91, 23, 23);
+  color: rgb(7, 89, 7);
+  border-style: solid;
+  border-color: rgb(91, 23, 23);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem auto;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.onbilgi {
+  width: 45%;
+  text-align: left;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0rem 1rem 2rem 1rem;
+}
+
+.bilgi-notlari p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.bilgi-notlari p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.bilgi-notlari-img {
+  width: 75%;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 20%;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(178, 172, 172);
+  padding-top: 1rem;
+  margin: 0px auto;
+  border-top: 1px solid black;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sosyal-medya {
+  display: inline-block;
+}
+
+.sosyal-container {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem auto;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.sosyal-container a {
+  text-decoration: none;
+  color: black;
+  padding: 0rem 1rem;
+}
+
+.sosyal-container a:hover {
+  color: white;
+  background-color: rgb(68, 66, 66);
+  border-radius: 10%;
+  padding: 0rem 1rem;
+}
+
+.bilgi-notlari:hover {
+  background-color: grey;
+  border-radius: 20%;
+}
+
+.sosyal-container a:active {
+  background-color: rgb(91, 23, 23);
+  color: rgb(7, 89, 7);
+  border-style: solid;
+  border-color: rgb(91, 23, 23);
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .onbilgi {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+  }
+  h2 {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .onbilgi a {
+    display: block;
+    width: 3rem;
+    margin: 0px auto;
+    padding: 0.5rem;
+  }
+  .mapping {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0rem;
+    margin-top: 1rem;
+  }
+  h1 {
+    text-align: center;
+  }
+
+  .sosyal-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .sosyal-container a {
+    text-decoration: none;
+    color: black;
+    padding: 0rem 1rem;
+    margin: 0.5rem;
+  }
+  .introduction {
+    padding: 1rem 0rem;
+  }
+}
